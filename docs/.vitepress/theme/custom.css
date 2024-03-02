@@ -1,0 +1,8 @@
+/* .vitepress/theme/custom.css */
+
+figure {
+    margin: 1em;
+    padding: 0.5em;
+    box-shadow: #ffffff 0px 0px 10px 3px;
+    text-align: center;
+}
