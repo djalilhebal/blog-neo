@@ -2,9 +2,6 @@
 Target audience: Tech-savvy, but may not be familiar with League.
 Purpose: Inform.
 Status: Draft
-
-Post intro:
-That's one small step for me, one giant leap for my journey in learning animation and beyond.
 -->
 # Introducing Super Scoreboard: Tracking cooldowns without even thinking
 
@@ -89,7 +86,12 @@ Apps like U.GG (which QuinnAD used to use) or Porofessor (which Kayle 1v9 uses).
 
 <figure>
 <video controls src="./kayle1v9-porofessor.mp4"></video>
-Kayle (Kayle 1v9) pinging Tahm Kench's TP on the Porofessor widget (and not the scoreboard).
+Kayle (Kayle 1v9) pinging Tahm Kench's TP only using the 3rd party overlay.
+</figure>
+
+<figure>
+<video controls src="./kayle1v9-porofessor-tracking-pinging.mp4"></video>
+<figcaption>Kayle (Kayle 1v9) tracking Aatrox's Flash using an overlay then pinging it in-game.</figcaption>
 </figure>
 
 
@@ -147,43 +149,6 @@ Legend:
 - Solid line (___) Messages
 - Dotted line (...) Events
 
-Script:
-```
-JS: Show dark scene
-SAY: In the beginning, there was darkness.
-
-SAY: And then someone booted Windows.
-JS:  SHOW WHITE SCENE, WINDOWS RECT
-
-SAY: The user interacts with the system using a mouse.
-JS: SHOW CURSOR, PULSING
-SAY: The mouse sends electrical signals to the system.
-JS: SHOW DASHED LINE FROM CURSOR TO WINDOW RECT
-
-SAY: The system processes them. Look at how it glows!
-JS: WINDOWS RECT GLOW
-
-SAY: It forwards mouse events to the topmost window (if any) for further processing.
-
-SAY: The user initially basked in the purity of Windows' divine glow.
-Yet, they succumbed to the allure of League of Legends, a departure from the sacred. The once pristine Windows interface now bears the mark of digital temptation.
-
-SAY:
-League is open. Mouse events are forwarded to it.
-Overlay is open. Mouse events are forwarded to it.
-League does not receive events. Sad.
-Overlay tells Windows to not forward mouse events.
-Overlay does not receive events. Sad.
-Overlay asks Windows to tell it about global mouse events.
-Overlay forwards global mouse events to itself. It processes them as if they were forwarded directly to it.
-
-SAY:
-Now, both League and the overlay now independently process the same click events. This allows the user to perform actions in both the game (pinging via in-game scoreboard) and the overlay (tracking with Super Scoreboard) simultaneously.
-JS: GLOW WINDOWS, LEAGUE, and OVERLAY RECT.
-
-SAY: Epic.
-```
-
 
 ## Conclusion
 
@@ -212,6 +177,7 @@ Clips were downloaded from:
 - Kayle 1v9's Twitch channel (https://www.twitch.tv/kayle_1v9)
     * `kayle1v9-muting-riven.mp4`
     * `kayle1v9-porofessor.mp4`: Kayle 1v9, 2024-02-27 00:23:15
+    * `kayle1v9-porofessor-tracking-pinging.mp4`: Kayle 1v9's YouTube channel, 05:30 https://www.youtube.com/watch?v=VSRWuEU1EQ0
 
 The animated explainer was made using:
 - Inkscape (vector editor)
@@ -220,8 +186,9 @@ The animated explainer was made using:
 - TTSMaker (https://ttsmaker.com/)
     * Voice: "Peter-🇺🇸United States Male (Hot + Unlimited)"
 
-Music:
-    * Hackers https://www.youtube.com/watch?v=Qr1PgL79deQ
+- Music:
+    * [x] Last Stop - Karl Casey @ White Bat Audio https://www.youtube.com/watch?v=jZoFzZ8pBmg
+    * [ ] Hackers - Karl Casey @ White Bat Audio https://www.youtube.com/watch?v=Qr1PgL79deQ
 
 ---
 
