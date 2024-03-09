@@ -2,6 +2,7 @@
 Target audience: Tech-savvy, but may not be familiar with League.
 Purpose: Inform.
 Status: Draft
+Edited: 2024-03-09
 -->
 # Introducing Super Scoreboard: Tracking cooldowns without even thinking
 
@@ -196,10 +197,6 @@ Check it out on GitHub https://github.com/djalilhebal/super-scoreboard/
 
 ---
 
-**Details**:
-
-- Last tested on League Patch 14.4 (Normal and Quickplay).
-
 **Credits**:
 
 Clips:
@@ -212,6 +209,12 @@ Clips:
     * `kayle1v9-muting-riven.mp4`: Kayle 1v9's Twitch stream (https://www.twitch.tv/kayle_1v9)
     * `kayle1v9-porofessor.mp4`: Kayle 1v9's Twitch stream, 2024-02-27 00:23:15
     * `kayle1v9-porofessor-tracking-pinging.mp4`: Kayle 1v9's YouTube channel, 05:30 https://www.youtube.com/watch?v=VSRWuEU1EQ0
+
+---
+
+**Details**:
+
+- Last tested on League Patch 14.4 (Normal and Quickplay).
 
 ---
 
