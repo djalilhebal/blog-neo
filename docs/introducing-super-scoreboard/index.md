@@ -12,7 +12,8 @@ Super Scoreboard is nothing super or extraordinary.
 I just wanted to build my own thing but make it braindead easy to use.
 
 In this post, we will start by giving a brief introduction to League of Legends, one of its mechanics known as cooldown tracking, and a common practice among players called pinging. 
-Following that, we will discuss a specific issue that requires a solution, the current tools available, and finally, present our streamlined solution. We will provide a high-level overview of our design and implementation.
+Following that, we will discuss a specific need, the current solutions available, and finally, present our streamlined solution.
+We will provide a high-level overview of our design and implementation.
 
 
 ## Intro
@@ -29,7 +30,7 @@ League might be toxic, but... It is what it is.
 
 ## League conventions
 
-Despite the limited communication tools given to players, a few useful conventions evolved:
+Despite the limited communication tools given to players, a few useful conventions have evolved:
 
 To track cooldowns, you open the scoreboard by pressing <kbd>TAB</kbd> and "ping" (click) the used summ. Its name alongside a timestamp (current time) will be logged to the team's chat.
 You or your teammates can use that piece of information to calculate when it will be off cooldown and make decisions based on that info.
@@ -90,7 +91,7 @@ Apps like U.GG (which QuinnAD used to use) or Porofessor (which Kayle 1v9 uses).
 
 <figure>
 <video controls src="./kayle1v9-porofessor.mp4"></video>
-Kayle (Kayle 1v9) pinging Tahm Kench's TP only using the 3rd party overlay.
+<figcaption>Kayle (Kayle 1v9) pinging Tahm Kench's TP only using the 3rd party overlay.</figcaption>
 </figure>
 
 <figure>
@@ -162,7 +163,7 @@ The following video explains the main idea behind Super Scoreboard and how it's 
 - Dotted line: Events or continuous messages.
 - Glowing means the window is processing mouse events.
 
-<aside>
+</aside>
 
 <details>
 <summary>About the animated explainer</summary>
@@ -185,9 +186,9 @@ Filters and effects:
 
 ## Conclusion
 
-And there you have it, Super Scoreboard, an overlay that's superimposed onto the in-game scoreboard. It's dead simple to use.
-It's a proof-of-concept.
-It works well enough.
+And there you have it, Super Scoreboard, an overlay that's superimposed onto the in-game scoreboard. It's dead simple to use.  
+It's a proof-of-concept.  
+It works well enough.  
 
 Also, Quinn is cool.
 
@@ -197,19 +198,19 @@ Check it out on GitHub https://github.com/djalilhebal/super-scoreboard/
 
 **Details**:
 
-- Tested on 14.4 (Normal and Quickplay).
+- Last tested on League Patch 14.4 (Normal and Quickplay).
 
 **Credits**:
 
-Clips were downloaded from:
+Clips:
 
-- QuinnAD's Twitch channel (https://www.twitch.tv/quinnad)
+- QuinnAD
     * `quinnad-twice-after-surviving.mp4`, `quinnad-twice-after-dying.mp4`, `quinnad-once.mp4`:
-      QuinnAD, 2024-02-22
+    QuinnAD's Twitch channel (https://www.twitch.tv/quinnad), 2024-02-22
 
-- Kayle 1v9's Twitch channel (https://www.twitch.tv/kayle_1v9)
-    * `kayle1v9-muting-riven.mp4`
-    * `kayle1v9-porofessor.mp4`: Kayle 1v9, 2024-02-27 00:23:15
+- Kayle 1v9
+    * `kayle1v9-muting-riven.mp4`: Kayle 1v9's Twitch stream (https://www.twitch.tv/kayle_1v9)
+    * `kayle1v9-porofessor.mp4`: Kayle 1v9's Twitch stream, 2024-02-27 00:23:15
     * `kayle1v9-porofessor-tracking-pinging.mp4`: Kayle 1v9's YouTube channel, 05:30 https://www.youtube.com/watch?v=VSRWuEU1EQ0
 
 ---
