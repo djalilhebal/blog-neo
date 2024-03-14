@@ -1,6 +1,7 @@
-// SVG script for super-scoreboard-explainer.svg
+// Animation script for super-scoreboard-explainer.svg
 
 /**
+ * Key to SVG/Inkscape label
  * @enum
  */
 const things = {
@@ -32,7 +33,7 @@ const things = {
  * When we name things in Inkscape, we are actually setting labels, not changing ids.
  * IDs are normally random.
  * 
- * @param {string} x Name
+ * @param {string} x Label
  */
 function el(x) {
     // HACK: For some reason, `document.querySelector('[inkscape\\:label="mouse-signals"]') === null`
@@ -68,6 +69,13 @@ function say(text) {
     console.log(text);
 }
 
+/**
+ * To use `currentcolor` when implementing the glow effect.
+ * For example `<g><rect inkscape:label="overlay" style="stroke: purple;">`
+ * becomes `<g style="color: purple;"><rect inkscape:label="overlay" style="stroke: purple;">`
+ *
+ * @param {string} x Label
+ */
 function copyColor(x) {
     const target = el(x);
     const color = target.querySelector('rect').style.stroke;
@@ -152,7 +160,8 @@ async function main() {
     glow(things.OVERLAY);
     await next();
 
-    say("Now, both League and the overlay independently process the same click events. Meaning, the user performs actions in both the game (like pinging via the in-game scoreboard) and the overlay (like tracking with Super Scoreboard) simultaneously.");
+    say("Now, both League and the overlay independently process the same click events.");
+    say("Meaning, the user performs actions in both the game (like pinging via the in-game scoreboard) and the overlay (like tracking with Super Scoreboard) simultaneously.");
     say("Cool.");
     await fin();
 }

@@ -2,7 +2,8 @@
 Target audience: Tech-savvy, but may not be familiar with League.
 Purpose: Inform.
 Status: Draft
-Edited: 2024-03-09
+
+- date: 2024-03-08
 -->
 # Introducing Super Scoreboard: Tracking cooldowns without even thinking
 
@@ -224,7 +225,8 @@ The animated explainer was made using:
 
 - **Firefox** (to render and interact with the SVG)
 
-- ~~OBS (screen recorder) did not work on Kubuntu, installed as a snap~~
+- ~~**OBS** (screen recorder)~~ installed as a snap, did not work on Kubuntu.
+
 - **SimpleScreenRecorder** (https://www.maartenbaert.be/simplescreenrecorder/)
 
 - **TTSMaker** (https://ttsmaker.com/)
@@ -237,7 +239,7 @@ The animated explainer was made using:
     * [ ] [Hackers - Karl Casey @ White Bat Audio](https://www.youtube.com/watch?v=NZ4Of3lID84)
 
 - Animating the SVG
-    * [x] Custom script
+    * [x] Custom script (see `super-scoreboard-explainer.js`)
     * [ ] Motion Canvas (https://motioncanvas.io/)
     * [ ] GSAP (https://github.com/greensock/GSAP)
     * [ ] Snap.svg (http://snapsvg.io)
