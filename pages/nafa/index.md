@@ -22,13 +22,14 @@ Imagine waking up at 1 AM and suddenly remembering this paragraph:
 
 Premise: When the user requests a part, send them a range that satisfies the request and ensure it covers the end of the scene.
 
-Request: Range: A-B
+Request: Range: A-B  
 Response: A-B-C
 
 TODO: Image
 
 
-## Refs
+## References
 
 - [System Design Course by Karan Pratap Singh | GitHub][system-design]
+
 [system-design]: https://github.com/karanpratapsingh/system-design

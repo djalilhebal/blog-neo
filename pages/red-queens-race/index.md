@@ -3,7 +3,7 @@ date: 2024-01-25
 audience: young, tech-savvy, non-technical
 ---
 
-# Red Queen's Race and the software development process
+# Red Queen's race and the software development process
 
 <figure>
 <img src="./alice-original.jpg" alt="" />
@@ -12,7 +12,7 @@ audience: young, tech-savvy, non-technical
 <figure>
 <video controls autoplay loop muted src="./alice-1985__clip-1.mp4"></video>
 <figcaption>
-Red Queen and Alice, running, shouting, "Faster, faster!"
+Red Queen and Alice, running and shouting, "Faster! Faster!"
 
 -- [Alice in Wonderland (1985)][alice-1985]
 </figcaption>
@@ -20,10 +20,10 @@ Red Queen and Alice, running, shouting, "Faster, faster!"
 
 Imagine this: Your project manager asks why you've been focusing on optimization for months, but the app's performance is still lacking.
 
-I could say, '**Trust the process**,' but let me explain with a colorful metaphor: Red Queen's Race.
+I could say, '**Trust the process**,' but let me explain with a colorful metaphor: Red Queen's race.
 As we add new features, the app slows down, and developers must optimize it to maintain its previous performance and, ideally, improve it.
 
-Optimization is like the Red Queen’s Race, a concept from Alice Through the Looking-Glass. Describing her world, the Queen declares, “It takes all the running you can do, to keep in the same place.  If you want to get somewhere else, you must run at least twice as fast as that!” As new features and calculations are added, the app slows down. Developers must continually optimize—improving memory usage and reducing execution time—not to get ahead, but simply to maintain an acceptable baseline.
+Optimization is like the Red Queen’s Race, a concept from Alice Through the Looking-Glass. Describing her world, the Queen declares, “It takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that!” As new features and calculations are added, the app slows down. Developers must continually optimize—improving memory usage and reducing execution time—not to get ahead, but simply to maintain an acceptable baseline.
 
 Refactoring works the same way: it helps prevent the system from becoming overly complex and drowning in technical debt.
 
@@ -121,7 +121,7 @@ Me to my PM:
 
 ### Workers
 
-We use Node workers, so we are mainly interested in the `rss` metric: 
+We use Node workers, so we are mainly interested in the `rss` metric.
 
 ```ts
 // It uses `perf_hooks` for accurate measurement.

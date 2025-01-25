@@ -1,13 +1,13 @@
 {
   "name": "djalil-blog-neo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build"
   },
   "devDependencies": {
-    "vitepress": "^1.4.1",
+    "vitepress": "^1.6.3",
     "globby": "^14.0.2",
     "gray-matter": "^4.0.3"
   },
