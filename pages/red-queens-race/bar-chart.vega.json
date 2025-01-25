@@ -1,0 +1,50 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 400,
+  "data": {
+    "values": [
+      {"operation": "Operation A", "version": "Before", "performance": 85, "order": 0},
+      {"operation": "Operation A", "version": "After", "performance": 92, "order": 1},
+
+      {"operation": "Operation B", "version": "Before", "performance": 70, "order": 0},
+      {"operation": "Operation B", "version": "After", "performance": 88, "order": 1},
+      
+      {"operation": "Operation C", "version": "Before", "performance": 60, "order": 0},
+      {"operation": "Operation C", "version": "After", "performance": 79, "order": 1}
+    ]
+  },
+  "mark": {
+    "type": "bar"
+  },
+  "encoding": {
+    "x": {
+      "field": "operation",
+      "type": "nominal",
+      "axis": {"title": "Operations"}
+    },
+    "y": {
+      "field": "performance",
+      "type": "quantitative",
+      "axis": {"title": "Performance Score"}
+    },
+    "color": {
+      "field": "version",
+      "scale": {
+        "domain": ["Before", "After"],
+        "range": ["rgb(159, 157, 150)", "rgb(135, 40, 94)"]
+      },
+      "legend": {"title": "Update Version"}
+    },
+    "strokeDash": {
+      "field": "version",
+      "scale": {
+        "domain": ["Before", "After"],
+        "range": [[5, 5], []]
+      }
+    },
+    "xOffset": {
+      "field": "order"
+    }
+  }
+}
