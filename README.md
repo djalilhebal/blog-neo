@@ -1,2 +1,0 @@
-# blog-neo
-New blog

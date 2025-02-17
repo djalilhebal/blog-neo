@@ -1,15 +1,14 @@
 {
-  "name": "djalil-blog-neo",
-  "version": "0.0.1",
-  "type": "module",
+  "name": "kunzite.cc",
+  "version": "0.20250217.1",
+  "private": true,
   "scripts": {
     "dev": "vitepress dev",
-    "build": "vitepress build"
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3",
-    "globby": "^14.0.2",
-    "gray-matter": "^4.0.3"
-  },
-  "dependencies": {}
+    "vitepress": "^2.0.0-alpha.2",
+    "vue": "^3.5.13"
+  }
 }
