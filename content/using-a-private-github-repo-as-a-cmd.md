@@ -5,10 +5,11 @@ TLDR: GitHub deploy keys + GitHub webhooks + Vercel webhook.
 
 Premise:
 Download a private repo
+...
 
 Sure, we could use GitHub REST API (https://docs.github.com/en/rest).
 
-Project: Contentless (as in discontented, "not without content")
+Project: Contentless (as in "discontented" and _not_ "without content")
 
 `contentless/`
 `contentless-data/`

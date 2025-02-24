@@ -1,8 +1,9 @@
 ---
-title: "Unduplicate: About Names"
+date: 2024
+status: draft
 ---
 
-# Learning record linkage. Names. (Unduplicate)
+# Unduplicate: Learning record linkage (names)
 
 
 ## Names
